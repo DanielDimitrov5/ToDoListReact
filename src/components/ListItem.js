@@ -8,8 +8,8 @@ function ListItem({
 }) {
 
     const style = isDone === true 
-                    ? `${styles.listItem} ${styles.listPointer}`
-                    : styles.listPointer;
+                    ? `${styles.listItem} ${styles.listPointer} ${styles.preventSelect}`
+                    : `${styles.listPointer} ${styles.preventSelect}`;
 
     return (
         <li className={style} onClick={onClick}>{task} <b onClick={onDelete}>X</b></li>

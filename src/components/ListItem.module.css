@@ -1,0 +1,7 @@
+.listItem {
+    text-decoration: line-through;
+}
+
+.listPointer {
+    cursor: pointer;
+}

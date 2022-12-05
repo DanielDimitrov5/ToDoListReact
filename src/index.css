@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+li {
+  list-style: none;
+}
+
+button.changeColor {
+  position: absolute;
+  bottom: 10px;
+  width: 2%;
+  border: 1px solid #8AC007;
+}

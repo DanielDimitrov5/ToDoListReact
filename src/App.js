@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <Heading  text="ToDo List"/>
+      <Heading  text="To Do List"/>
       <ToDoList />
       <ChangebackroundButton></ChangebackroundButton>
       <Footer />

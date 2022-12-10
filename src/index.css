@@ -18,7 +18,17 @@ li {
 
 button.changeColor {
   position: absolute;
-  bottom: 10px;
+  bottom: 35px;
   width: 2%;
   border: 1px solid #8AC007;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: blueviolet;
+  color: rgb(255, 255, 255);
+  text-align: center;
 }

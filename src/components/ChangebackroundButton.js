@@ -9,7 +9,7 @@ function BackroundChanger() {
     }
 
     return (
-        <button type="button" class="changeColor btn btn-warning" onClick={randomColor}>~</button>
+        <button type="button" className="changeColor btn btn-warning" onClick={randomColor}>~</button>
     )
 }
 

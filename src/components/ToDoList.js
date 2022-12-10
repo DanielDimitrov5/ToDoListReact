@@ -14,6 +14,12 @@ function ToDoList() {
     );
 
         function AddNewToDoOnBlur(e) {
+
+            const input = e.target.value;
+
+            if(input === '')
+            return;
+
             const newToDo = { id: idGenerator(), task: e.target.value, isDone: false};
 
             setTodos(oldState => [
